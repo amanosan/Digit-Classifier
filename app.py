@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from app.torch_utils import transform_image, get_prediction
+from utilities.torch_utils import transform_image, get_prediction
 
 ALLOWED_EXT = {'png', 'jpg', 'jpeg'}
 
