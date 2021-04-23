@@ -26,7 +26,7 @@ num_classes = 10
 device = torch.device('cpu')
 model = NeuralNet(input_size, hidden_size, num_classes)
 model.load_state_dict(torch.load(
-    "./app/digit_classifier.pth", map_location=device))
+    "app/digit_classifier.pth", map_location=device))
 model.eval()
 
 
